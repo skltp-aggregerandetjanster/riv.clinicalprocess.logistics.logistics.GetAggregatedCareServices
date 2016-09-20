@@ -8,3 +8,4 @@
 /GetAggregatedCareServices-schemas/.settings/*.prefs
 /GetAggregatedCareServices/*.classpath
 *.prefs
+target
