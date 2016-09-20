@@ -1,0 +1,10 @@
+/.project
+/GetAggregatedCareServices-schemas/*.project
+/GetAggregatedCareServices-schemas/*.classpath
+/.settings
+/GetAggregatedCareServices-teststub/*.project
+/GetAggregatedCareServices-teststub/*.classpath
+/GetAggregatedCareServices/*.project
+/GetAggregatedCareServices-schemas/.settings/*.prefs
+/GetAggregatedCareServices/*.classpath
+*.prefs

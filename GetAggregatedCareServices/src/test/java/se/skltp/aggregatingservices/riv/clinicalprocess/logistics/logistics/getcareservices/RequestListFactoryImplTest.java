@@ -9,13 +9,10 @@ import java.util.List;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.mockito.Mockito;
-
 import riv.clinicalprocess.logistics.logistics.getcareservicesresponder.v2.GetCareServicesType;
 import riv.clinicalprocess.logistics.logistics.v3.DatePeriodType;
 import riv.clinicalprocess.logistics.logistics.v3.PersonIdType;
 import se.skltp.aggregatingservices.riv.clinicalprocess.logistics.logistics.getcareservices.RequestListFactoryImpl;
-import se.skltp.agp.cache.TakCacheBean;
 import se.skltp.agp.riv.itintegration.engagementindex.findcontentresponder.v1.FindContentResponseType;
 import se.skltp.agp.riv.itintegration.engagementindex.findcontentresponder.v1.FindContentType;
 import se.skltp.agp.riv.itintegration.engagementindex.v1.EngagementType;
@@ -24,7 +21,7 @@ import se.skltp.agp.test.producer.TestProducerDb;
 
 public class RequestListFactoryImplTest {
 
-    private static final String CATEGORIZATION = "voo";
+    private static final String CATEGORIZATION = "cll-cs";
     private static final String SERVICE_DOMAIN = "riv:clinicalprocess:logistics:logistics";
     private static final String RR_ID = "1212121212";
 

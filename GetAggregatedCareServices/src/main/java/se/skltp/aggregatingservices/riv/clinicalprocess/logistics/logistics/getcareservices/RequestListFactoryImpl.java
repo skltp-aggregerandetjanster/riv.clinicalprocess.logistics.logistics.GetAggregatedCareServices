@@ -54,11 +54,8 @@ public class RequestListFactoryImpl implements RequestListFactory {
 
         for (EngagementType engagement : inEngagements) {
             if (isPartOf(sourceSystemHsaId, engagement.getLogicalAddress())) {
-				// Add pdlUnit to source system
-                //if (takCache.contains(engagement.getLogicalAddress())) {
-	                log.debug("Add source system: {} for producer: {}", engagement.getSourceSystem(), engagement.getLogicalAddress());
-	                addPdlUnitToSourceSystem(sourceSystem_pdlUnitList_map, engagement.getSourceSystem(), engagement.getLogicalAddress());
-                //}
+                log.debug("Add source system: {} for producer: {}", engagement.getSourceSystem(), engagement.getLogicalAddress());
+                addPdlUnitToSourceSystem(sourceSystem_pdlUnitList_map, engagement.getSourceSystem(), engagement.getLogicalAddress());
             }
         }
 
