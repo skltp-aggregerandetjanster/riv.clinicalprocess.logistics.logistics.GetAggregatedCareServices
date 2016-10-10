@@ -61,11 +61,11 @@ public class RequestListFactoryImplTest {
         List<Object[]> requestList =  requestFactory.createRequestList(queryObject, findContentResponse);
         assertEquals(2, requestList.size());
 
-        assertEquals(SOURCE_SYSTEM_2, requestList.get(0)[0]);
+        assertEquals(SOURCE_SYSTEM_1, requestList.get(0)[0]);
         GetCareServicesType request1 = (GetCareServicesType)requestList.get(0)[1];
         assertEquals(RR_ID, request1.getPatientId().getId());
 
-        assertEquals(SOURCE_SYSTEM_1, requestList.get(1)[0]);
+        assertEquals(SOURCE_SYSTEM_2, requestList.get(1)[0]);
         GetCareServicesType request2 = (GetCareServicesType)requestList.get(1)[1];
         assertEquals(RR_ID, request2.getPatientId().getId());
     }
