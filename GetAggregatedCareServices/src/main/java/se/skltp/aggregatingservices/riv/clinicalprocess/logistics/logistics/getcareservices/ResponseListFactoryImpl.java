@@ -54,7 +54,7 @@ public class ResponseListFactoryImpl implements ResponseListFactory {
         
         if (log.isInfoEnabled()) {
             String subjectOfCareId = queryObject.getFindContent().getRegisteredResidentIdentification();
-            log.info("Returning {} aggregated care contact for subject of care id {}", aggregatedResponse.getCareService().size() ,subjectOfCareId);
+            log.info("Returning {} aggregated care services for subject of care id {}", aggregatedResponse.getCareService().size() ,subjectOfCareId);
         }
 
         // Since the class GetCareServicesResponseType don't have an @XmlRootElement annotation
