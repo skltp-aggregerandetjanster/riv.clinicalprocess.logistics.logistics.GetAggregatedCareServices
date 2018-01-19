@@ -49,7 +49,7 @@
 
 
 		<AsyncLogger name="se.skltp.agp" level="INFO"/>
-		<AsyncLogger name="se.skltp.aggregatingservices.riv.clinicalprocess.logistics.logistics.getaggregatedcareservices" level="INFO"/>
+		<AsyncLogger name="se.skltp.aggregatingservices.riv.clinicalprocess.logistics.logistics.getcareservices" level="INFO"/>
 		<!-- Message logging using soi-toolkit LogTransformer class -->
 		<AsyncLogger name="org.soitoolkit.commons.mule.messageLogger" level="INFO"/>
 
