@@ -9,3 +9,7 @@
 /GetAggregatedCareServices/*.classpath
 *.prefs
 target
+
+# intellij
+.idea
+*.iml
