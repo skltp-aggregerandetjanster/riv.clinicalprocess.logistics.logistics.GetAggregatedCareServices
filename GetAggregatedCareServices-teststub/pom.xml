@@ -6,7 +6,7 @@
   <parent>
     <groupId>se.skltp.aggregatingservices.riv.clinicalprocess.logistics.logistics</groupId>
     <artifactId>GetAggregatedCareServices-parent</artifactId>
-    <version>1.1.0-RC5-SNAPSHOT</version>
+    <version>1.1.0-RC5</version>
   </parent>
 
   <artifactId>GetAggregatedCareServices-teststub</artifactId>
