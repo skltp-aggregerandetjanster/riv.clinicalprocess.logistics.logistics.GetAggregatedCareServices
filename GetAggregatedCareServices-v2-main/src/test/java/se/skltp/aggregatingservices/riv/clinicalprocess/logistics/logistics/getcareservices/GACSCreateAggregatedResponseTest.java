@@ -1,14 +1,15 @@
 package se.skltp.aggregatingservices.riv.clinicalprocess.logistics.logistics.getcareservices;
 
-import org.junit.runner.RunWith;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import riv.clinicalprocess.logistics.logistics.getcareservicesresponder.v2.GetCareServicesResponseType;
 import se.skltp.aggregatingservices.api.AgpServiceFactory;
 import se.skltp.aggregatingservices.tests.CreateAggregatedResponseTest;
 
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+@ExtendWith(SpringExtension.class)
+
 public class GACSCreateAggregatedResponseTest extends CreateAggregatedResponseTest {
 
   private static GACSAgpServiceConfiguration configuration = new GACSAgpServiceConfiguration();
